@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-wrapper {
+  height: 100vh;
+  padding: 20px;
+}
+
+.info {
+  width: 70%;
+  padding: 8px 0 4px 8px;
+}
+
+.title-section {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.summary {
+  font-size: 13px;
+  margin-top: 12px;
+  color: rgba(128, 128, 128, 0.729);
+  width: 50%;
+}
+
+.title-section a,
+a:visited {
+  color: black;
+}
+
+.separator-line {
+  margin-top: 48px;
+  border: 0.2px solid rgba(128, 128, 128, 0.533);
+}
+
+.wrapper-section {
+  margin-top: 40px;
+}
+
+.left-section {
+  width: 50%;
+  float: left;
+  padding: 8px;
+  margin-right: 16px;
+}
+.right-section {
+  width: 40%;
+  display: inline-block;
+}
+
+.left-section h3 {
+  font-size: 14px;
+  color: rgb(146, 145, 145);
+}
+
+.company-name {
+  margin-top: 14px;
+  font-size: 13px;
+}
+
+.job-title {
+  color: rgb(161, 161, 161);
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.list {
+  font-size: 12px;
+}
+
+.list li {
+  list-style: auto;
+  margin-left: 12px;
+  margin-top: 8px;
+}
+
+.education {
+  padding: 8px;
+}
+.achievements {
+  padding: 8px;
+  margin-top: 16px;
+}
+.skills {
+  padding: 8px;
+  margin-top: 16px;
+}
+.education h5 {
+  font-size: 12px;
+}
+.education h6 {
+  margin-top: 4px;
+  font-weight: normal;
+  color: rgb(146, 145, 145);
+}
+
+.achievements p {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 14px;
+  color: rgb(146, 145, 145);
+}
+
+.common-border {
+  border: 0.2px solid black;
+  border-radius: 4px;
+}
