@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.parent {
+  background-color: aqua;
+  margin: 0 14px;
+  padding: 8px;
+}
+
+.child_1 {
+  background-color: rgb(255, 108, 138);
+}
+.child_2 {
+  background-color: rgb(233, 243, 88);
+}
+.child_3 {
+  background-color: rgb(43, 236, 107);
+}
+
+@media all and (max-width: 580px) {
+  .child_1 {
+    background-color: rgb(76, 79, 236);
+  }
+  .child_2 {
+    border: 1px solid black;
+  }
+}
+@media (max-width: 580px) {
+  .child_1 {
+    background-color: rgb(76, 79, 236);
+  }
+  .child_2 {
+    border: 1px solid black;
+  }
+}
+
+
+/* Screen
+Print
+Speech
+all */
