@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Learn HTML Forms</title>
+</head>
+
+<body>
+
+    <form method="POST" action="index.html">
+        <div>
+            <label for="fName">First Name:* </label>
+            <input id="fName" type="text" placeholder="eg. John" required name="fname" />
+        </div>
+        <br>
+        <div>
+            <label for="lName">Last Name:* </label>
+            <input id="lName" type="text" placeholder="eg. Smith" required name="lname" />
+        </div>
+        <br>
+        <div>
+            <label for="ffName">Father's Name: </label>
+            <input id="ffName" type="text" placeholder="eg. Smith" name="fathersName" />
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:* </label>
+            <input type="email" id="email" placeholder="john@gmail.com" required name="email">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:* </label>
+            <input id="password" type="password" minlength="6" maxlength="12" required name="password">
+        </div>
+        <br>
+        <div>
+            <label for="birthDate">Birth Date:* </label>
+            <input id="birthDate" type="date" required name="birthDate">
+        </div>
+
+        <br>
+        <div>
+            <label for="rollNo">Roll no:* </label>
+            <input id="rollNo" type="number" placeholder="eg. UI9909032" required name="rollNo">
+        </div>
+
+        <br>
+        <div>
+            <label>Title</label>
+            <label for="Mr.">Mr.</label>
+            <input id="Mr." type="radio" name="title" value="Mr.">
+            <label for="Mrs.">Mrs.</label>
+            <input id="Mrs." type="radio" name="title" value="Mrs.">
+            <label for="Mrs.">Miss.</label>
+            <input id="Mrs." type="radio" name="title" value="Miss">
+        </div>
+        <br>
+
+        <div>
+            <label for="rollNo">You agree to share this information with university </label>
+            <input id="rollNo" type="checkbox" required>
+        </div>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
